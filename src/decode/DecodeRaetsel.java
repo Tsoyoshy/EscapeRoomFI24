@@ -32,7 +32,7 @@ public class DecodeRaetsel {
       e.printStackTrace();
     }
 
-    Decoder decoder = new Decoder(key, arrToDecode);
+    DecoderRaetsel decoder = new DecoderRaetsel(key, arrToDecode);
 
     System.out.println(decoder.decodeNrOne());
     System.out.println(decoder.decodeNrTwo());
