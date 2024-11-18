@@ -19,7 +19,7 @@ public class DecodeRaetsel {
     String text = "";
     try {
       BufferedReader reader =
-          new BufferedReader(new FileReader("D:\\home\\jee\\Decode\\src\\textFiles\\chiffreCode"));
+          new BufferedReader(new FileReader("C:\\Users\\workspace\\EscapeRoomFI24\\src\\textFiles\\chiffreCode"));
       while (null != (line = reader.readLine())) {
         text = line;
         for (int i = 0; i < text.toCharArray().length; i++) {
